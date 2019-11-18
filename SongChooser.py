@@ -14,7 +14,7 @@ and mood != "e"):
     #If one of the options was not chosen then ask again
     print("Invalid selection\nPlease re-enter an option.")
     print("How are you feeling?\na: Sad\nb: Really Sad\nc: Happy\nd: High on cocaine\ne: Saucy")
-    mood = input()
+    mood = str.lower(input())
     
 
 if(mood == "a"):
